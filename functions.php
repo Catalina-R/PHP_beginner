@@ -25,9 +25,9 @@ function suma() {
 
 echo suma(100, 1000, 265423);
 
-function happy($nume, $verb, $stare){
+// function happy($nume, $verb, $stare){
 
-    return "{$nume} {$verb} {$stare}";
-}
+//     return "{$nume} {$verb} {$stare}";
+// }
 
-echo happy('Robert', 'nu e', 'fericit!');
+// echo happy('Robert', 'nu e', 'fericit!');

@@ -10,3 +10,4 @@ if(isset($_POST['binary'])){
      echo "Please provide a valid binary!";
     }        
   }
+  
