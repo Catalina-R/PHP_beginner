@@ -3,6 +3,10 @@
 if(isset($_POST['sqrt'])){
     $n = $_POST['sqrt'];
 }
+if (empty($n)){
+    die ("Please enter a valid number!");
+}
+var_dump ($n);
 function my_sqrt($n){
   $x = $n;
   $y = 1;
@@ -10,8 +14,8 @@ function my_sqrt($n){
     $x = ($x + $y)/2;
     $y = $n/$x;
    }
-  if (empty($n)|| $x != sqrt($n)){
-    return "Please enter a valid number!";
+  if ($x != sqrt($n)){
+    return "Please contact us with this error!";
   }else{
     return $x; 
   }  
