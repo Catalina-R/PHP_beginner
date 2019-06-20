@@ -64,3 +64,16 @@ for ($i=1; $i<=5;$i++){
   echo "<br/>";
 }    
 echo'</pre>';
+
+echo ("<br><br><b> 5)</b> Write a program to calculate and print the factorial of a number using a for loop.<br>");
+echo ("<br>");
+$n = 5;
+$factorial = 1;
+for($i=1; $i<=$n; $i++){
+  $factorial*=$i;
+} 
+echo "The factorial of  $n = $factorial"."<br>";
+
+echo ("<br><br><b> 6)</b> Write a program which will give you all of the potential combinations of a two-digit decimal combination, printed in a comma delimited format.<br>");
+echo ("<br>");
+
