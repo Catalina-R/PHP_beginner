@@ -25,9 +25,9 @@
 </html> 
 <?php
 
- include 'lectii.php';
- echo '<br>';
- echo '<br>';
- include 'functions.php';
+//  include 'lectii.php';
+//  echo '<br>';
+//  echo '<br>';
+//  include 'functions.php';
 
 
