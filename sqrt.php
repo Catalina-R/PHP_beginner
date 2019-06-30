@@ -3,10 +3,10 @@
 if(isset($_POST['sqrt'])){
     $n = $_POST['sqrt'];
 }
-if (empty($n)){
-    die ("Please enter a valid number!");
-}
-var_dump ($n);
+// if (empty($n)){
+//     die ("Please enter a valid number!");
+// }
+//var_dump ($n);
 function my_sqrt($n){
   $x = $n;
   $y = 1;
@@ -20,4 +20,4 @@ function my_sqrt($n){
     return $x; 
   }  
 }
-echo my_sqrt($n);
+echo "The square root of " . $n . " is ". my_sqrt($n) . ".";

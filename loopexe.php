@@ -78,5 +78,24 @@ echo ("<br><br><b> 6)</b> Write a program which will give you all of the potenti
 echo ("<br>");
 
 for ($x=0; $x<=9; $x++){
-  echo $x . $x++ . ","; 
+  for ($y=0; $y<=9; $y++)
+
+  echo $x . $y . ","; 
 }
+
+echo ("<br><br><b> 6)</b> a program which will count the 'r' characters in the text 'w3resource'.<br>");
+echo ("<br>");
+
+$text="w3resource";
+$search_char="r";
+$count="0";
+for($x="0"; $x< strlen($text); $x++)
+  { 
+    if(substr($text,$x,1)==$search_char)
+    {
+    $count=$count+1;
+	 }
+  }
+echo "The number of 'r's is {$count}." . "<br>";
+
+

@@ -15,7 +15,7 @@
             <button type="submit">Convert</button>
             <button type="reset">Reset</button> 
         </form>
-        <form action="convert.php" method="post">
+        <form action="sqrt.php" method="post">
             <label for="sqrt">Square root</label>
             <input type="text" name="sqrt" id="sqrt">
             
