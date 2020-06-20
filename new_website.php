@@ -8,14 +8,14 @@
     </head>
 
     <body>
-        <form action="convert.php" method="post">
+        <form action="combined.php" method="post">
             <label for="binary">Binary</label>
             <input type="text" name="binary" id="binary">
             
             <button type="submit">Convert</button>
             <button type="reset">Reset</button> 
         </form>
-        <form action="sqrt.php" method="post">
+        <form action="combined.php" method="post">
             <label for="sqrt">Square root</label>
             <input type="text" name="sqrt" id="sqrt">
             
